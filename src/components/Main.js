@@ -35,7 +35,7 @@ class Main extends Component {
         ];
 
         return(
-            <div className='main-wrapper'>
+            <div className='main-content wrapper'>
                 <div className='main'>
                    <div className='copy-container'>
                         <h1>Find your destination!</h1>
