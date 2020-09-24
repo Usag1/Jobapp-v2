@@ -35,11 +35,11 @@ class Main extends Component {
         ];
 
         return(
-            <div className='main-content wrapper'>
-                <div className='main'>
+            <div className='home-content wrapper'>
+                <div className='home'>
                    <div className='copy-container'>
-                        <h1>Find your destination!</h1>
-                        <h2>Are you ready to find crews to travel with?</h2>   
+                        <h1 className='page-title'>Find your destination!</h1>
+                        <p>Are you ready to find crews to travel with?</p>   
                    </div> 
                    <div className='jobpost-container'>
                         <h3 className='section-title'>jobs found</h3>

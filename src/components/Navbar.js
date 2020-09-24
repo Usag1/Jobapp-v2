@@ -6,8 +6,8 @@ class Navbar extends Component {
             <nav>
                 <ul className='main-nav'>
                     <li><a href='App.js'>Home</a></li>
-                    <li><a href='#'>About</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='About.js'>About</a></li>
+                    <li><a href='Contact.js'>Contact</a></li>
                 </ul>
             </nav>
          );
