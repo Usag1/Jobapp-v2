@@ -4,7 +4,7 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <div id='home' className='big-bg'>
+    <div>
       <Header />
       <Main />
     </div>

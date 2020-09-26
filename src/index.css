@@ -28,7 +28,7 @@ img {
 /* Header
 ------------------------------ */
 .logo {
-  width: 150px;
+  width: 120px;
 }
 
 .main-nav {
@@ -54,11 +54,12 @@ img {
 .page-header {
   display: flex;
   justify-content: space-between;
+  height: 150px;
 }
 
 
 .wrapper {
-  max-width: 1600px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 4%;
   background-color: #30e3ca;
@@ -68,7 +69,8 @@ img {
 ------------------------------ */
 .home-content {
   text-align: center;
-  margin-top: 10%;
+  background-color: #f6f6f6;
+  min-height: 100vh;
 }
 
 .home-content p {
@@ -85,14 +87,11 @@ img {
 }
 
 /* Big Background */
-.big-bg {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
 
-#home {
-  
+.home .page-title {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  text-transform: none;
 }
 
 
