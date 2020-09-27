@@ -94,13 +94,30 @@ img {
 }
 
 .copy-container {
-  padding: 150px;
+  margin: 0 auto;
+  padding: 150px 0 0;
   height: 100vh;
+}
+
+.jobpost-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#MainAside {
+  width: 22%;
+}
+
+.jobpost {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 /* Jobpost Card */
 .jobpost-card {
-  width: 50%;
+  width: 80%;
   margin-top: 10px;
   text-align: center;
   box-shadow: 0 0 8px #e8e8e8;
@@ -109,8 +126,8 @@ img {
 }
 
 .jobpost-card:hover {
-  width: 65%;
-  margin-top: 10px;
+  width: 90%;
+  margin-top: 5px;
   text-align: center;
   box-shadow: 0 0 12px #e8e8e8;
   background-color: #fff;
@@ -127,17 +144,7 @@ img {
   width: 126px;
 } 
 
-.jobpost-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
-}
-
 /* Aside */
-#aside {
-  width: 30%;
-}
-
 .sub-title {
   font-size: 1.375rem;
   padding: 0 8px 8px;
@@ -145,9 +152,21 @@ img {
   font-weight: normal;
 }
 
-#aside #form {
-  margin-top: ;
+.check-ind {
+  list-style: none;
 }
+
+.check-ind li {
+  text-align: left;
+  color: #40514e;
+  display: block;
+}
+
+.check-ind li:hover {
+  color: #11999e;
+}
+
+
 
 
 

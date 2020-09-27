@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class MainAside extends Component {
+class Industries extends Component {
     render() { 
         return ( 
             <aside>
                 <h3 className='sub-title'>Select Industry types</h3>
                 <form>
-                    <ul>
+                    <ul className='check-ind'>
                         <li>
                             <input type='checkbox' name='industry' value='IT' id='IT' />
                             <label for='IT'>IT</label>
@@ -37,5 +37,7 @@ class MainAside extends Component {
         );
     }
 }
+
+
  
-export default MainAside;
+export default Industries;

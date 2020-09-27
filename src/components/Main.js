@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Jobpost from './Jobpost';
-import MainAside from './MainAside';
+import Industries from './Industries';
 
 class Main extends Component {
     render(){
@@ -42,21 +42,23 @@ class Main extends Component {
                         <h1 className='page-title'>Find your destination!</h1>
                         <p>Are you ready to find crews to travel with?</p>   
                    </div> 
-                   <div className='jobpost-container'>
-                        <h3 className='section-title'>jobs found</h3>
-                        {jobpostList.map((jobpostItem)=>{
-                            return(
-                                <Jobpost
-                                    position={jobpostItem.position}
-                                    company={jobpostItem.company}
-                                    address={jobpostItem.address}
-                                    image={jobpostItem.image}
-                                    introduction={jobpostItem.introduction}
-                                />
-                            ); 
-                        })}
-                        <MainAside />
-                   </div>
+                   <h3 className='section-title'>jobs found</h3>
+                   <div className='jobpost'>
+                        <Industries />
+                        <div className='jobpost-container'>
+                                {jobpostList.map((jobpostItem)=>{
+                                    return(
+                                        <Jobpost
+                                            position={jobpostItem.position}
+                                            company={jobpostItem.company}
+                                            address={jobpostItem.address}
+                                            image={jobpostItem.image}
+                                            introduction={jobpostItem.introduction}
+                                        />
+                                    ); 
+                                })}
+                        </div>
+                    </div>
                 </div> 
             </div>
         ); 
