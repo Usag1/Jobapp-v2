@@ -48,7 +48,7 @@ img {
 }
 
 .main-nav a:hover {
-  color: #11999e;
+  color: #30e3ca;
 }
 
 .page-header {
@@ -62,7 +62,7 @@ img {
   max-width: 2000px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: #30e3ca;
+  background-color: #11999e;
 }
 
 /* Main
@@ -70,12 +70,11 @@ img {
 .home-content {
   text-align: center;
   background-color: #f6f6f6;
-  min-height: 100vh;
 }
 
 .home-content p {
   font-size: 1.125rem;
-  margin: 10px 0 42px;
+  margin: 10px 0;
 }
 
 /* Page Title */
@@ -94,7 +93,61 @@ img {
   text-transform: none;
 }
 
+.copy-container {
+  padding: 150px;
+  height: 100vh;
+}
 
+/* Jobpost Card */
+.jobpost-card {
+  width: 50%;
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 0 0 8px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.jobpost-card:hover {
+  width: 65%;
+  margin-top: 10px;
+  text-align: center;
+  box-shadow: 0 0 12px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.jobpost-item {
+  border-radius: 5px;
+  padding: 48px 0 64px;
+  color: #40514e;
+}
+
+.jobpost-item img {
+  width: 126px;
+} 
+
+.jobpost-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* Aside */
+#aside {
+  width: 30%;
+}
+
+.sub-title {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #11999e solid;
+  font-weight: normal;
+}
+
+#aside #form {
+  margin-top: ;
+}
 
 
 

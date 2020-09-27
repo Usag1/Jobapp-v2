@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pulse from 'react-reveal/Pulse';
 
 class Jobpost extends Component {
     constructor(props) {
@@ -34,6 +35,7 @@ class Jobpost extends Component {
                         <button className='modal-close-btn'
                                 onClick={() => {this.handleClickClose()}}
                         >
+                         
                             Close
                         </button>
                     </div> 
@@ -43,20 +45,21 @@ class Jobpost extends Component {
 
 
         return ( 
-            <div className='jobpost-card'>
-                <div 
-                    className='jobpost-item' 
-                     onClick={() => {this.handleClickJobpost()}}
-                >
-                    <h2>{this.props.position}</h2>
-                    <h3>{this.props.company}</h3>
-                    <h3>{this.props.address}</h3>
-                    <img src={this.props.image} />
+           <Pulse>
+                <div className='jobpost-card'>
+                    <div className='jobpost-item' 
+                         onClick={() => {this.handleClickJobpost()}}>
+                        <h2> {this.props.position} </h2>
+                        <h3>{this.props.company}</h3>
+                        <h3>{this.props.address}</h3>
+                        <img src={this.props.image} />
+                    </div>
+                    {modal}
                 </div>
-                {modal}
-            </div> 
+            </Pulse>
          );
     }
 }
  
+
 export default Jobpost;

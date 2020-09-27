@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Jobpost from './Jobpost';
+import MainAside from './MainAside';
 
 class Main extends Component {
     render(){
@@ -54,6 +55,7 @@ class Main extends Component {
                                 />
                             ); 
                         })}
+                        <MainAside />
                    </div>
                 </div> 
             </div>
