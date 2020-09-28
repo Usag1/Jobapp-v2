@@ -30,7 +30,7 @@ class Jobpost extends Component {
                             <h3>{this.props.company}</h3>
                             <h3>{this.props.address}</h3>
                             <img src={this.props.image} />
-                            <p>{this.props.introduction}</p>
+                            <p>{this.props.description}</p>
                         </div>
                         <button className='modal-close-btn'
                                 onClick={() => {this.handleClickClose()}}
@@ -49,9 +49,10 @@ class Jobpost extends Component {
                 <div className='jobpost-card'>
                     <div className='jobpost-item' 
                          onClick={() => {this.handleClickJobpost()}}>
-                        <h2>{this.props.position}</h2>
-                        <h3>{this.props.company}</h3>
-                        <h3>{this.props.address}</h3>
+                        <h2 className='position'>{this.props.position}</h2>
+                        <h3 className='company'>{this.props.company}</h3>
+                        <h3 className='adress'>{this.props.address}</h3>
+                        <h4 className='discription'>{this.props.description}</h4>
                         <img src={this.props.image} />
                     </div>
                     {modal}

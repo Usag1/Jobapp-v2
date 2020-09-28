@@ -29,6 +29,7 @@ img {
 ------------------------------ */
 .logo {
   width: 120px;
+  margin-top: 14px;
 }
 
 .main-nav {
@@ -44,7 +45,7 @@ img {
 }
 
 .main-nav a {
-  color: #40514e;
+  color: #f6f6f6;
 }
 
 .main-nav a:hover {
@@ -54,7 +55,7 @@ img {
 .page-header {
   display: flex;
   justify-content: space-between;
-  height: 150px;
+  height: 100px;
 }
 
 
@@ -62,50 +63,98 @@ img {
   max-width: 2000px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: #11999e;
 }
 
-/* Main
+/* HOME
 ------------------------------ */
 .home-content {
   text-align: center;
-  background-color: #f6f6f6;
+  margin-top: 10%;
 }
 
 .home-content p {
   font-size: 1.125rem;
-  margin: 10px 0;
+  margin: 10px 0 42px;
+  color: #11999e;
 }
 
 /* Page Title */
 .page-title {
+  color: #f6f6f6;
+  font-family: 'Roboto';
   font-size: 5rem;
   font-family: 'Philosopher', serif;
   text-transform: uppercase;
   font-weight: normal;
 }
 
-/* Big Background */
-
-.home .page-title {
-  margin: 0 auto;
-  padding: 50px 0 0;
-  text-transform: none;
+/* Button */
+.button {
+    font-size: 1.375rem;
+    background-color: #f6f6f6;
+    color: #11999e;
+    border-radius: 5px;
+    padding: 18px 32px;
 }
 
-.copy-container {
-  margin: 0 auto;
-  padding: 150px 0 0;
-  height: 100vh;
+.button:hover {
+    background-color: #30e3ca;
+    color: #f6f6f6;
+    box-shadow: 0 0 3px 3px #11999e;
+    transition: ease-in 0.2s
+}
+
+.freepik {
+  text-align: center;
+  font-size: 4px;
+}
+
+/* Big-BackGround */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.home {
+  background: linear-gradient(120deg, #11999e, #6c2082, #3c2082);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 10s ease-in-out infinite;
+  -moz-animation: AnimationName 15s ease-in-out infinite;
+  animation: AnimationName 10s ease-in-out infinite;
+  min-height: 100vh;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.home .page-title {
+  text-transform: none;
 }
 
 .jobpost-container {
   width: 70%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
 }
 
-#MainAside {
+#aside {
   width: 22%;
 }
 
@@ -117,7 +166,7 @@ img {
 
 /* Jobpost Card */
 .jobpost-card {
-  width: 80%;
+  width: 100%;
   margin-top: 10px;
   text-align: center;
   box-shadow: 0 0 8px #e8e8e8;
@@ -126,10 +175,11 @@ img {
 }
 
 .jobpost-card:hover {
-  width: 90%;
+  width: 100%;
   margin-top: 5px;
   text-align: center;
-  box-shadow: 0 0 12px #e8e8e8;
+  box-shadow: 10px 10px #e8e8e8;
+  transition: ease-in 0.2s;
   background-color: #fff;
   cursor: pointer;
 }
@@ -144,7 +194,7 @@ img {
   width: 126px;
 } 
 
-/* Aside */
+/* Industries */
 .sub-title {
   font-size: 1.375rem;
   padding: 0 8px 8px;

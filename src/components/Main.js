@@ -36,30 +36,24 @@ class Main extends Component {
         ];
 
         return(
-            <div className='home-content wrapper'>
-                <div className='home'>
-                   <div className='copy-container'>
-                        <h1 className='page-title'>Find your destination!</h1>
-                        <p>Are you ready to find crews to travel with?</p>   
-                   </div> 
-                   <h3 className='section-title'>jobs found</h3>
-                   <div className='jobpost'>
-                        <Industries />
-                        <div className='jobpost-container'>
-                                {jobpostList.map((jobpostItem)=>{
-                                    return(
-                                        <Jobpost
-                                            position={jobpostItem.position}
-                                            company={jobpostItem.company}
-                                            address={jobpostItem.address}
-                                            image={jobpostItem.image}
-                                            introduction={jobpostItem.introduction}
-                                        />
-                                    ); 
-                                })}
-                        </div>
+            <div>
+            <h3 className='section-title'>jobs found</h3>
+                <div className='jobpost'>
+                    <Industries />
+                    <div className='jobpost-container'>
+                        {jobpostList.map((jobpostItem)=>{
+                            return(
+                                <Jobpost
+                                    position={jobpostItem.position}
+                                    company={jobpostItem.company}
+                                    address={jobpostItem.address}
+                                    image={jobpostItem.image}
+                                    introduction={jobpostItem.introduction}
+                                />
+                            ); 
+                        })}
                     </div>
-                </div> 
+                 </div>
             </div>
         ); 
     }
