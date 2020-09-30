@@ -36,7 +36,7 @@ class Main extends Component {
         ];
 
         return(
-            <div>
+            <div className='main'>
             <h3 className='section-title'>jobs found</h3>
                 <div className='jobpost'>
                     <Industries />

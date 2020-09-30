@@ -117,7 +117,7 @@ img {
 }
 
 .home {
-  background: linear-gradient(120deg, #11999e, #6c2082, #3c2082);
+  background: linear-gradient(120deg, #11999e, #30e3ca, #4b0168);
   background-size: 400% 400%;
   -webkit-animation: AnimationName 10s ease-in-out infinite;
   -moz-animation: AnimationName 15s ease-in-out infinite;
@@ -160,8 +160,14 @@ img {
 
 .jobpost {
   display: flex;
+  
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin: 0 50px 50px 50px;
+}
+
+.main .section-title {
+  text-align: center;
+  margin-top: 50px;
 }
 
 /* Jobpost Card */
@@ -178,7 +184,7 @@ img {
   width: 100%;
   margin-top: 5px;
   text-align: center;
-  box-shadow: 10px 10px #e8e8e8;
+  box-shadow: 1px 1px 10px 10px #e8e8e8;
   transition: ease-in 0.2s;
   background-color: #fff;
   cursor: pointer;
@@ -216,12 +222,24 @@ img {
   color: #11999e;
 }
 
+/* Footer
+------------------------------ */
+.footer {
+  background-color: #40514e;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 30px;
+}
 
+.footer p {
+  color: #11999e;
+}
 
+.sns {
+  text-align: center;
+}
 
-
-
-
-
-
+.sns-logo {
+  display: flex;
+}
 
