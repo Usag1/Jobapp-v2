@@ -8,10 +8,12 @@ class Sns extends Component {
         return (  
             <div className='sns'>
                 <p>Follow Us!</p>
-                <div className='sns-logo'>
-                    <a href='#' className='logo instagram'><FontAwesomeIcon icon={['fab', 'instagram']} color='#11999e' /></a>
-                    <a href='#' className='logo twitter'><FontAwesomeIcon icon={['fab', 'twitter']} color='#11999e' /></a>
-                    <a href='#' className='logo youtube'><FontAwesomeIcon icon={['fab', 'youtube']} color='#11999e' /></a>  
+                <div className='sns-logos'>
+                    <ul>
+                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'instagram'] } className='s-logo instagram' /></a></li>
+                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'twitter']} className='s-logo twitter' /></a></li>
+                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'youtube']} className='s-logo youtube' /></a></li>  
+                    </ul>
                 </div>
             </div>
         );

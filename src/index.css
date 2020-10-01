@@ -117,7 +117,7 @@ img {
 }
 
 .home {
-  background: linear-gradient(120deg, #11999e, #30e3ca, #4b0168);
+  background: linear-gradient(120deg, #11999e, #30e3ca, #af00b2);
   background-size: 400% 400%;
   -webkit-animation: AnimationName 10s ease-in-out infinite;
   -moz-animation: AnimationName 15s ease-in-out infinite;
@@ -160,7 +160,6 @@ img {
 
 .jobpost {
   display: flex;
-  
   justify-content: space-around;
   margin: 0 50px 50px 50px;
 }
@@ -228,18 +227,38 @@ img {
   background-color: #40514e;
   display: flex;
   justify-content: space-between;
-  padding: 0 0 30px;
+  padding: 0 35px 20px;
 }
 
 .footer p {
-  color: #11999e;
+  color: #30e3ca;
+}
+
+.page-list li {
+  color:  #30e3ca;
+  cursor: pointer;
+}
+
+.page-list li:hover {
+  color: #af00b2;
 }
 
 .sns {
   text-align: center;
+  margin: 20px 0 0;
 }
 
-.sns-logo {
+.sns-logos ul {
   display: flex;
+  list-style: none;
+  margin-right: 25px;
 }
 
+.s-logo {
+  color: #30e3ca;
+  margin-right: 10px;
+}
+
+.s-logo:hover {
+  color: rgb(85 26 139);
+}
