@@ -224,23 +224,24 @@ img {
 /* Footer
 ------------------------------ */
 .footer {
-  background-color: #40514e;
+  background-color: #11999e;
   display: flex;
   justify-content: space-between;
   padding: 0 35px 20px;
 }
 
 .footer p {
-  color: #30e3ca;
+  color: #40514e;
 }
 
 .page-list li {
-  color:  #30e3ca;
+  font-size: 13px;
+  color:  #40514e;
   cursor: pointer;
 }
 
 .page-list li:hover {
-  color: #af00b2;
+  color: #30e3ca;
 }
 
 .sns {
@@ -255,10 +256,10 @@ img {
 }
 
 .s-logo {
-  color: #30e3ca;
+  color: #40514e;
   margin-right: 10px;
 }
 
 .s-logo:hover {
-  color: rgb(85 26 139);
+  color: #30e3ca;
 }

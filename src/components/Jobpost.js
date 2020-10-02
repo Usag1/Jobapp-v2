@@ -11,7 +11,7 @@ class Jobpost extends Component {
                         <h3 className='company'>{this.props.company}</h3>
                         <h3 className='adress'>{this.props.address}</h3>
                         <h4 className='discription'>{this.props.description}</h4>
-                        <img src={this.props.image} />
+                        <img className='company-logo' src={this.props.image} />
                     </div>
                 </div>
             </Pulse>
