@@ -6,6 +6,9 @@ class AboutRemotify extends Component {
             <header className='page-header wrapper'>
                 <h1><a href='App.js'><img className='logo' src='' alt='Remotify'/></a></h1>
                 <Navbar />
+                <div>
+                    
+                </div>
             </header>  
         );
     }
