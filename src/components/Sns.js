@@ -11,9 +11,9 @@ class Sns extends Component {
                 <p>Follow Us!</p>
                 <div className='sns-logos'>
                     <ul>
-                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'instagram']} className='s-logo instagram' /></a></li>
-                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'twitter']} className='s-logo twitter' /></a></li>
-                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'youtube']} className='s-logo youtube' /></a></li>  
+                        <li><a href='https://www.instagram.com/devgirl_krn?r=nametag' ><FontAwesomeIcon icon={['fab', 'instagram']} className='s-logo instagram' /></a></li>
+                        <li><a href='https://github.com/Usag1' ><FontAwesomeIcon icon={['fab', 'github']} className='s-logo github' /></a></li>
+                        <li><a href='#' ><FontAwesomeIcon icon={['fab', 'twitter']} className='s-logo twitter' /></a></li>  
                     </ul>
                 </div>
             </div>

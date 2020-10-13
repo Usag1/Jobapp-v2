@@ -74,7 +74,7 @@ img {
 
 .home-content p {
   font-size: 1.125rem;
-  margin: 10px 0 42px;
+  margin: 10px 0 60px;
   color: #11999e;
 }
 
@@ -102,11 +102,6 @@ img {
     color: #f6f6f6;
     box-shadow: 0 0 3px 3px #11999e;
     transition: ease-in 0.2s
-}
-
-.freepik {
-  text-align: center;
-  font-size: 4px;
 }
 
 /* Big-BackGround */
@@ -238,6 +233,7 @@ img {
   font-size: 13px;
   color:  #40514e;
   cursor: pointer;
+  list-style: none;
 }
 
 .page-list li:hover {
@@ -256,6 +252,7 @@ img {
 }
 
 .s-logo {
+  font-size: 20px;
   color: #40514e;
   margin-right: 10px;
 }
