@@ -32,6 +32,10 @@ img {
   margin-top: 14px;
 }
 
+.s-logo .user {
+  color: #f6f6f6;
+}
+
 .main-nav {
   display: flex;
   font-size: 1.23rem;
